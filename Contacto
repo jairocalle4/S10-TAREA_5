@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<script>
+    alert("A continuacion se le presentara un formulario dele en aceptar")
+</script>
+<body style="background-color:rgb(140, 203, 207)">
+    <h1>Ingrese Datos en el formulario</h1>
+    <ul>
+    </nav>
+    <center>
+        <img src="https://acegif.com/wp-content/gif/anime-sleep-1.gif" width="340" height="145">
+        <p>"Estudiante: Jairo Calle Maldonado"</p>
+        <p>Carrera: Ingeniería en Software</p>
+    </center>
+        <li> 
+            <a href = "index.html">
+               Home 
+            </a>
+        </li>
+        <li>
+            <a href = "Contacto.html"">
+                Contacto
+            </a>             
+    </ul>
+    <form>
+        <label>Nombre</label>
+        <input type="text" name="nombre"><br><br>
+
+        <label>Email</label>
+        <input type="email" name="email"><br><br>
+
+        <label>Selecciona tu lenguaje</label>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select><br><br>
+        <p>*Deja un comentario</p>
+        <textarea></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
